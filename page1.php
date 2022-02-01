@@ -1,5 +1,5 @@
 <html>
-  <head
+  <head>
     <title>page1</title>
   </head>
   <body bgcolor="lightblue">
