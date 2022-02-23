@@ -1,9 +1,25 @@
 <html>
   <head>
-    <title>การเชื่อมโยงเว็บไซต์</title>
+    <title>การกำหนดรูปแบบตัวอักษร</title>
+    <style>
+      @font-face{
+        font-family: "MyFont1";
+        src: url("Doughnut.ttf");
+      }
+      @font-face{
+        font-family: "MyFont2";
+        src: url("ChocolateteehaypaiTEST.ttf");
+      }
+      #font1{
+        font-family: "MyFont1";
+      }
+      #font2{
+        font-family: "MyFont2";
+      }
+    </style>
   </head>
   <body>
-    <a href="https://m.facebook.com/"><h1>วาร์ปของฉัน</h1></a>
-    <a href="mypage2.php"><h1>ไปpage2</h1></a>
+    <h1 id="font1">นางสาวญาณดา ทองขาน เลขที่ 15 ห้อง ม.4/12 เลขประจำตัว 57054</h1>
+    <h1 id="font2">นางสาวญาณดา ทองขาน เลขที่ 15 ห้อง ม.4/12 เลขประจำตัว 57054</h1>
   </body>
 </html>
